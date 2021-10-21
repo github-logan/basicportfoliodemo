@@ -1,0 +1,187 @@
+/****************TAGS****************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  background-color: #f5fbef;
+}
+
+h1 {
+  margin: 3.125rem auto 0 auto;
+  font-family: Tahoma;
+  font-size: 2.8125rem;
+  color: #455561;
+}
+
+h2 {
+  color: #3a435e;
+  font-family: Tahoma;
+  font-size: 1.875rem;
+}
+
+h3 {
+  color: #455561;
+  font-family: Tahoma;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  width: 15%;
+  border-width: .5rem;
+  border-color: #92ad94;
+  margin: 2.25rem auto 2.25rem auto;
+}
+
+a {
+  color: #499167;
+  font-family: Tahoma;
+  margin: 1rem;
+}
+
+a:visited {
+  color: #455561;
+}
+
+a:hover {
+  color: #92ad94;
+}
+
+p {
+  line-height: 2;
+}
+
+/****************CLASSES****************/
+.top-container {
+  background-color: #f5fbef;
+  font-family: Tahoma;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #f5fbef;
+}
+
+.bottom-container {
+  background-color: #499167;
+  margin: 3.125rem auto 0 auto;
+  padding: 1.5rem;
+}
+
+.bottom-container a:link {
+  color: #92ad94;
+  margin: .5rem;
+}
+
+.bottom-container a:visited {
+  color: #3a435e;
+  margin: .5rem;
+}
+
+.bottom-container hr {
+  margin: 1rem auto;
+  border-color: #92ad94;
+}
+
+.bottom-container p {
+  line-height: normal;
+  color: #f5fbef;
+  font-family: Tahoma;
+}
+
+.subtitle-p {
+  font-family: monospace;
+  font-size: 1.25rem;
+  font-style: italic;
+}
+
+.dev-stylz {
+  color: #499167;
+  font-family: Tahoma;
+  font-style: normal;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.profile-img {
+  height: 35%;
+  width: 35%;
+}
+
+.skill-pm {
+  height: 25%;
+  width: 25%;
+  float: left;
+  margin-right: 1.875rem;
+}
+
+.skill-gd {
+  height: 25%;
+  width: 25%;
+  float: right;
+  margin-left: 1.875rem;
+}
+
+.profileH2 {
+  color: #499167;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 4.25rem auto 4.25rem auto;
+  text-align: left;
+}
+
+.profile {
+  margin: 2.25rem auto 2.25rem auto;
+  background-color: #f5fbef;
+  width: 50%;
+}
+
+.myButton {
+	box-shadow: 0 10px 14px -7px #3e7327;
+	background:linear-gradient(to bottom, #499167 5%, #499167 100%);
+	background-color:#499167;
+	border-radius:3px;
+	border:1px solid #92ad94;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Tahoma;
+	font-size:16px;
+	font-weight:bold;
+	padding:8px 12px;
+	text-decoration:none;
+  margin-bottom: 2rem;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #499167 5%, #499167 100%);
+	background-color:#499167;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+/******************************
+COLOR THEME HEXDEC:
+"Ivory": #f5fbef;
+"Independence": #3a435e;
+"Black Coral": #455561;
+"Cambridge Blue": #92ad94;
+"Middle Green": #499167;
+*******************************/
